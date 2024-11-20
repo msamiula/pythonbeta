@@ -1,0 +1,6 @@
+a=int(input("Enter number for Table: "))
+try:
+    for i in range (1,11):
+        print(f"{a}x {i} = {a*i}")
+except Exception as e:
+    print("Invalid entry",e)

@@ -1,0 +1,15 @@
+try:
+    a=int(input("Enter any Number "))
+    b=int(input("Entery second number "))
+    c= a * b
+    d= a / b
+    print("The Multiplication of both is ", c)
+    print("the Division is" , d)
+except ValueError:
+    print("Invalid Number")
+except  ZeroDivisionError:
+    print("Value cannot divide by zero")
+for i in range(10):
+    print("True" if i % 2 == 0 else "try again")
+
+    
